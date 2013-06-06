@@ -10,7 +10,7 @@ Works with clients such as the MyTardis AAF Auth plugin: https://github.com/stev
 An auth server is a complex thing, and there are several dependencies.
 
 * The server must be a Shibboleth Service Provider. [This guide shows you how to be one for the Australian Access Federation.](http://wiki.aaf.edu.au/tech-info/sp-install-guide)
-* mod_shib for Apache to protect URLs (or nginx equivalent, see [this guide](http://davidjb.com/blog/2013/04/integrating-nginx-and-a-shibboleth-sp-with-fastcgi/).
+* mod_shib for Apache to protect URLs (or nginx equivalent, see [this guide](http://davidjb.com/blog/2013/04/integrating-nginx-and-a-shibboleth-sp-with-fastcgi/)).
 * php
 * [Composer](http://getcomposer.org/) package manager for php
 * Install this [php OAuth2 server](https://github.com/bshaffer/oauth2-server-php/) using Composer
